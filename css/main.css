@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .navLink {
+    @apply text-primary font-medium text-xl;
+  }
+  .primary-btn {
+    @apply font-jost bg-primary px-5 py-2.5 text-white capitalize text-center rounded-md shadow-md shadow-emerald-950/30 hover:bg-primary/80 transition ease-in-out delay-150 border-2 border-primary;
+  }
+  .primary-btn-outline {
+    @apply font-jost bg-white px-5 py-2.5 text-primary capitalize text-center rounded-md shadow-md shadow-emerald-950/30 hover:bg-primary hover:text-white transition ease-in-out delay-150 border-2 border-primary;
+  }
+}

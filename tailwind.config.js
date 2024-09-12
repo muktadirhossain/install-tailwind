@@ -3,15 +3,8 @@ module.exports = {
   content: ["*"],
   theme: {
     extend: {
-      colors:{
-        primary: {
-          50: '#3490DC',
-          100: '#2989CC',
-          200: '#207CC9',
-          300: '#1670B3',
-          400: '#0D5CAF',
-          500: '#004587',
-        },
+      colors: {
+        primary: "#009A74",
         secondary: '#FFC107',
         danger: '#E91E63',
         success: '#4CAF50',
@@ -20,7 +13,18 @@ module.exports = {
         light: '#F5F5F5',
         dark: '#333',
       },
-      
+      fontFamily: {
+        jost: ['Jost', 'sans-serif'],
+      },
+
+      animation: {
+        'bounce-slow': 'bounce 2s infinite',
+      },
+      backgroundImage: {
+        'hero-bg': "url('../img/hero-bg.png')",
+        
+      }
+
     },
   },
   plugins: [],
