@@ -22,7 +22,9 @@ module.exports = {
       },
       backgroundImage: {
         'hero-bg': "url('../img/hero-bg.png')",
-        
+        'project-bg': "url('../img/project-bg.png')",
+        'section-bg': "url('../img/section-bg.png')",
+
       }
 
     },

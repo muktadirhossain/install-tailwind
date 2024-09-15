@@ -12,4 +12,25 @@
   .primary-btn-outline {
     @apply font-jost bg-white px-5 py-2.5 text-primary capitalize text-center rounded-md shadow-md shadow-emerald-950/30 hover:bg-primary hover:text-white transition ease-in-out delay-150 border-2 border-primary;
   }
+  .tag-name{
+    @apply inline-block mx-0.5 text-primary bg-primary/20 px-2.5 rounded-full;
+  }
+}
+
+@layer components {
+  .animate-updown {
+      animation-name: animate-updownAnim;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+  }
+
+  @keyframes animate-updownAnim {
+      from {
+          transform: translateY(-20px);
+      }
+      to {
+          transform: translateY(20px);
+      }
+  }
 }
