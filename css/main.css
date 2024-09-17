@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer utilities {
+
   .navLink {
     @apply text-primary font-medium text-xl;
   }
@@ -14,6 +15,16 @@
   }
   .tag-name{
     @apply inline-block mx-0.5 text-primary bg-primary/20 px-2.5 rounded-full;
+  }
+
+  .section-title{
+    @apply text-center font-medium text-2xl mb-2;
+  }
+  .section-heading{
+    @apply text-center text-primary font-bold text-5xl;
+  }
+  .section-description{
+    @apply text-center text-[#111111] font-normal text-xl mt-4;
   }
 }
 
